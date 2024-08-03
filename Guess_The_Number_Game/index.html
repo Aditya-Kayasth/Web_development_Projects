@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binomial Card Trick</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎩 Binomial Card Trick Magic 🎩</h1>
+        <p>Choose a number between 1 and 63 and keep it in your mind...🤫</p>
+        <button id="startBtn">Start the Magic</button>
+        <div id="cards-container" class="hidden">
+            <!-- Cards will be added here dynamically -->
+        </div>
+        <div id="guess-container" class="hidden">
+            <p>Does your number exist on Card <span id="card-number"></span>?</p>
+            <button id="yesBtn">Yes</button>
+            <button id="noBtn">No</button>
+        </div>
+        <p id="result" class="hidden"></p>
+    </div>
+    <audio id="clickSound" src="click.mp3"></audio>
+    <audio id="errorSound" src="error.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+/* Dark Mode Styles */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Title Styles */
+h1 {
+    font-size: 3rem; /* Larger font size for the title */
+    font-weight: bold;
+    color: #ff9800; /* Bright color for visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    white-space: nowrap; /* Prevents title from wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Adds ellipsis if title is too long */
+    margin-bottom: 20px;
+}
+
+/* Card Container Styles */
+.cards-container {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    padding: 10px;
+}
+
+/* Card Styles */
+.card {
+    background-color: #d32f2f; /* Red background for cards */
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Card Numbers Styles */
+.card span {
+    display: inline-block;
+    margin: 5px;
+    font-size: 1.5rem; /* Larger font size for card numbers */
+}
+
+/* Button Container Styles */
+.guess-container {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Button Styles */
+button {
+    background-color: #ff9800; /* Bright color for buttons */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #f57c00; /* Slightly darker on hover */
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
